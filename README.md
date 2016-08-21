@@ -2,7 +2,9 @@
 
 This app provides a map view of historical police incident data in Richmond, VA.
 
-You can see it in action [on GitHub](http://codeforrva.github.io/crimemap/).
+You can see it [in action](http://tonygambone.org/crimemap/).
+
+This was originally developed as a [Code for RVA](http://www.codeforrva.org/) project.
 
 ## Building and running
 
@@ -24,7 +26,10 @@ You can contribute in several different ways:
 
 1. __Submit a pull request.__ Fork this repository and make some changes!
 2. __Submit bug reports and feature requests.__ Use our GitHub issue tracker.
-3. __Get involved in Code for RVA.__ Check our [website](http://www.codeforrva.org/) for events and other projects, or [see what we're up to on GitHub](https://github.com/codeforrva).
+3. __Get involved in Code for RVA.__ Check their [website](http://www.codeforrva.org/) for events and other projects, or [see what they're up to on GitHub](https://github.com/codeforrva).
 
+## Pushing to GitHub pages
+
+This app is designed to run on GitHub pages - be sure to configure your repository to build the site from the master branch.  JavaScript changes will require you to run `npm run dist` and commit the updated bundle.min.js file.
 
 
